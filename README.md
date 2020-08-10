@@ -1,5 +1,7 @@
 [Source template](https://www.overleaf.com/latex/templates/single-column-deedy-cv-slash-resume-template/zwyxmkbrfgtz)
 
+Notable edits: Boldening of all fonts, content. 
+
 # Single Column Resume
 
 LaTeX template for a single column resume based on the popular two-column Deedy Resume created by Debarghya Das. Extra commands have been added to the class file for added simplicity.
