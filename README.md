@@ -1,6 +1,6 @@
 [Source template](https://www.overleaf.com/latex/templates/single-column-deedy-cv-slash-resume-template/zwyxmkbrfgtz)
 
-Notable edits: Boldening of all fonts, content. 
+Notable edits: increased boldness of typeface, added personal content, changed format in various ways. 
 
 # Single Column Resume
 
