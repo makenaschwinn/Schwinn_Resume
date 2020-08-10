@@ -1,0 +1,168 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% This is a single column version of the popular Deedy Resume created by
+% Debarghya Das. 
+%
+% Some extra commands are defined in the .cls file for simplification
+%
+% Compile with XeLaTex
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{single_column_resume}
+\setmainfont[Path = fonts/lato/]{Lato-Reg}
+\usepackage{xcolor}
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Header
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\namesection{Makena}{Schwinn} { \\
+	makenaschwinn@berkeley.edu \\
+	415-827-9022 \\
+	\url{github.com/makenaschwinn} \\
+	\url{linkedin.com/in/makenaschwinn/}
+} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Education
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education} 
+
+\noindent\runsubsection{University of California, Berkeley}
+\hfill \location{Aug 2016 – Dec 2020}
+\vspace{2pt}
+\descript{ Degrees in Computer Science \& Business Administration}
+\hfill \location{GPA: 3.8}
+\vspace{3pt}
+% \award{\textbf{Awards:} Outstanding Teaching Award (2019), Dean’s List (2018, 2019, 2020), Honors to Date (2018)} \\
+% \award{\textbf{Honors:} Upsilon Pi Epsilon (Computer Science Honor Society), Accel Scholars (mentorship program led by Accel)}
+% \setlength{\parindent}{5ex}
+% \runsubsubsection{\textbf{Awards:} Outstanding Teaching Award (2019), Dean’s List (2018, 2019, 2020), Honors to Date (2018)} \\
+% \vspace{2pt}
+% \runsubsubsection{\textbf{Honors:} Upsilon Pi Epsilon (Computer Science Honor Society), EECS Dept. Accel Scholar} \\
+\runsubsubsection{Awards:} \textlist{Dean’s List (2018, 2019, 2020), Outstanding Teaching Award (2018), Honors to Date (2018)}\\
+\vspace{2pt}
+\runsubsubsection{Honors:} \textlist{Upsilon Pi Epsilon (Computer Science Honor Society), EECS Department Accel Scholar}\\
+\vspace{2pt}
+% \runsubsubsection{Coursework:}
+% \textlist{Machine Learning (CS 189), Optimization (EECS 127), Artificial Intelligence (CS 188), User Interface Design (CS 160), Data Science (DATA 8, 100), Data Structures (CS 61B), Linear Algebra \& Differential Equations (MATH 54),  Discrete Math \& Probability (EECS 70), Multivariable Calculus (MATH 53), Physics (7A), Finance (UGBA 103), Micro \& Macro Economics (UGBA 101A, B \& ECON 2, 134), Strategy in IT (UGBA 190), Intellectual Property for Entrepreneurship (UGBA 190T), Marketing (UGBA 106)}\\
+\runsubsubsection{Computer Science Courses:} 
+\textlist{Machine Learning (CS 189), Artificial Intelligence (CS 188), Data Science (DATA 8, 100), Data Structures \& Algorithms (CS 61B), User Interface Design (CS 160)}
+\\
+\runsubsubsection{Mathematics Courses:} 
+\textlist{Optimization (EECS 127), Discrete Math \& Probability (EECS 70), Linear Algebra \& Differential Equations (MATH 54),   Multivariable Calculus (MATH 53), Physics (7A)}
+\\
+\runsubsubsection{Business Courses:}
+\textlist{Finance (UGBA 103), Micro \& Macro Economics (UGBA 101A, B \& ECON 2, 134), Strategy for the IT Firm (UGBA 190), Intellectual Property for Entrepreneurship (UGBA 190T), Marketing (UGBA 106)}
+\\
+
+{\setlength{\parindent}{0cm}}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Experience
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Industry Experience}
+
+\noindent\runsubsection{Deloitte Consulting}
+\descript{| Business Technology Analyst Intern}
+\hfill \location{ Jun 2019 – Aug 2019}
+\begin{tightemize}
+    \item Identified growth opportunities for Google Cloud Platform through Deloitte’s Strategy and Analytics team.
+    \item Sourced deals for Google’s strategic investment fund and evaluated potential investments for profitability. 
+    \item Prepared high-visibility presentations to communicate deal status and sourcing methodology to leadership.
+\end{tightemize}
+\sectionsep
+
+\noindent\runsubsection{Amazon Lab126}
+\descript{| Software Engineering Intern}
+\hfill \location{ May 2018 – Aug 2018}
+\begin{tightemize}
+    \item Designed custom data structures to efficiently process data from 50+ million Amazon consumer devices daily.
+    \item Created and integrated scalable survival analysis tool to examine real-time stability and performance metrics.
+    \item Utilized results to influence decision making on software releases and target future device improvements.
+\end{tightemize}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Research
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Academia}
+
+\noindent\runsubsection{Berkeley Integrated System for Transit Optimization}
+\descript{| Researcher}
+\hfill \location{ Aug 2019 – present}
+\begin{tightemize}
+    \item Improved existing optimization algorithm by 40\% by implementing hypervolume expansion as the optimization objective in an open-source, multi-agent transportation simulation framework.
+    \item Generated empirical Laffer curve to determine potential optimal toll rates in urban environments.
+    \item Supervised by Prof. Alex Bayen, in collaboration with San Francisco County Transportation Authority, with anticipated paper publication in ACM Transactions on Evolutionary Learning and Optimization in late 2020.
+\end{tightemize}
+\sectionsep
+
+\noindent\runsubsection{UC Berkeley Department of Data Science}
+\descript{| Data 8 Teaching Assistant}
+\hfill \location{ Jan 2017 – May 2019}
+\begin{tightemize}
+    \item Taught data science concepts (Python, probability, bootstrapping, confidence intervals, regression, classification) in weekly labs, small group tutoring, and office hours; created exams, programming assignments, and worksheets.
+    \item Received Fall 2018 Outstanding Teaching Award, presented to top 5\% of TAs.
+\end{tightemize}
+\sectionsep
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Projects
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Technical Projects}
+\runsubsection{Credit Card Fraud Classifier}
+\descript{(Python, Keras)}
+\hfill \location{550 lines}
+\begin{tightemize}
+   \item Classified transaction data into authentic and fraudulent purchases in collaboration with two other developers, using neural networks, k-menas, and logistic regression.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Relational Database Management System}
+\descript{(Java, SQL)}
+\hfill \location{650 lines}
+\begin{tightemize}
+   \item Built SQL-like database management system and query language. Developed unit and integration tests.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Version-Control System}
+\descript{(Java)}
+\hfill \location{1,300 lines}
+\begin{tightemize}
+   \item Designed and implemented offline version-control system, reminiscent of Git, from scratch. Functionality includes: save, branch, merge, and restore versions of files from command line.
+\end{tightemize}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Skills
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Skills}
+\runsubsubsection{Programming Languages:}
+\textlist{Python (Scikit-learn, Keras, Hyperopt, Pandas, Matplotlib), Java, C, SQL, R, HTML}
+\\
+\runsubsubsection{Other Tools:}
+\textlist{Git, AWS EC2/S3/Redshift, Excel (linear programming, sensitivity analysis, simulation, pivot tables)}
+\\
+\runsubsubsection{Non-Technical:}
+\textlist{Public Speaking, Outstanding Written \& Verbal Communication, Teamwork, Leadership, Spanish}
+
+\sectionsep
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     End
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{document}
